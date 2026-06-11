@@ -1,0 +1,56 @@
+/* GOLD HEADINGS */
+h1 {
+    color: #FFD700 !important;
+    text-shadow: 0px 0px 10px rgba(255,215,0,0.4);
+}
+
+h2, h3 {
+    color: #F4C430 !important;
+}
+
+/* GOLD METRIC VALUES */
+[data-testid="stMetricValue"] {
+    color: #FFD700 !important;
+    font-weight: bold;
+}
+
+/* GOLD METRIC LABELS */
+[data-testid="stMetricLabel"] {
+    color: #F5DEB3 !important;
+}
+
+/* GOLD BORDER FOR DATAFRAMES */
+[data-testid="stDataFrame"] {
+    border: 2px solid #D4AF37 !important;
+    border-radius: 12px;
+}
+
+/* GOLD BUTTONS */
+.stButton > button {
+    background: linear-gradient(
+        135deg,
+        #D4AF37,
+        #FFD700
+    ) !important;
+
+    color: black !important;
+
+    border: 2px solid #B8860B !important;
+
+    font-weight: bold;
+}
+
+/* GOLD SUCCESS BOXES */
+[data-testid="stAlert"] {
+    border-left: 5px solid #FFD700 !important;
+}
+
+/* SIDEBAR MENU HOVER */
+[data-testid="stSidebarNav"] a:hover {
+    border-left: 4px solid #FFD700;
+}
+
+/* GOLD HORIZONTAL LINES */
+hr {
+    border: 1px solid #D4AF37;
+}
